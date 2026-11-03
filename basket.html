@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basket - Kampala Furniture Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo">🪑 Kampala Furniture Hub</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="catalogue.html">Catalogue</a>
+    <a href="about.html">About Us</a>
+    <a href="basket.html">Basket (<span id="count">0</span>)</a>
+  </nav>
+</header>
+<section>
+  <h2>Quotation Basket</h2>
+  <div id="basketArea"></div>
+  <div id="formArea" class="box">
+    <h3>Delivery Details</h3>
+    <form id="orderForm">
+      <label>Full name <input type="text" id="name"></label>
+      <span class="error" id="nameErr"></span>
+      <label>Phone <input type="text" id="phone" placeholder="0700123456"></label>
+      <span class="error" id="phoneErr"></span>
+      <label>Email <input type="text" id="email"></label>
+      <span class="error" id="emailErr"></span>
+      <label>Delivery address <textarea id="address" rows="2"></textarea></label>
+      <span class="error" id="addressErr"></span>
+      <button type="submit" class="btn">Submit Order</button>
+    </form>
+  </div>
+  <div id="confirm" class="box hidden"></div>
+</section>
+<footer>
+   <div class="social-links">
+ <p>📍 Kampala, Uganda | 📞 +256 792140567 | ✉ info@kampalafurniturehub.com</p>
+  <p><a href="https://www.facebook.com/Eunice Among" target="_blank"><img src="icon/facebook.png"><span>Facebook</span></a>
+     <a href="https://www.tiktok.com/@sunsetfurnituerug" target="_blank"><img src="icon/tiktok.png"><span>Tiktok</span></a>
+     <a href="https://wa.me/256771718506" target="_blank"><img src="icon/whatapp.jpg"><span>WhatsApp</span></a></p>
+  <p>&copy; 2026 Kampala Furniture Hub</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
